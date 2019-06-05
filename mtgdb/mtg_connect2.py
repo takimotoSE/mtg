@@ -1,10 +1,10 @@
 import mtg_scr2
 import pymysql.cursors
-connection = pymysql.connect(host='localhost',
-                            user='root',
-                            password='sato1122',
-                            db='mtgdb',
-                            charset='utf8',
+connection = pymysql.connect(host=#'hostname',
+                            user=#'username',
+                            password=#'password',
+                            db=#'dbname',
+                            charset=#'utf8',
                             cursorclass=pymysql.cursors.DictCursor)
 #exit(1)
 for i in range(1,4):
